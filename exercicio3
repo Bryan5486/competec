@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+
+{
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        boolean estachovendo = true;
+        boolean estarelampejando = true;
+        boolean naosairdecasa = estachuvendo && estarelampejando;
+        
+        
+        boolean temmacarrao = true;
+        boolean temestrogonofe = true;
+        boolean estoufeliz = estachuvendo || estarelampejando;
+	}
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main
+
+{
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        boolean diferente = "Bryan" != "Enzo";
+        boolean igual = "Bryan" = "Enzo";
+        
+        System.out.println("o nome Enzo e Bryan é igual ou diferente?");
+        igual || diferente = sc.nextboolean();
+        
+        if (igual) {
+            System.out.print("você errou! Não é igual.");
+        }
+        else {
+         System.out.print("Você acerotu! É diferente."");   
+        }    
+            
+	}
+}

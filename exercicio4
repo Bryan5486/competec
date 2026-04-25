@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main
+
+{
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int idadeA = 18, idadeB = 15
+        
+        boolean mesmaidade = idadeA = idadeB;
+        boolean maiorQue18 = idadeA > 18;
+        
+        boolean comparacao = mesmaidade && maiorQue18;
+        
+        boolean idadediferente = idadeA != idadeB;
+        boolean menorQue12 = idadeB < 12;
+        
+        boolean comparacao = idadediferente && menorQue12;
+        
+        
+	}
+}
